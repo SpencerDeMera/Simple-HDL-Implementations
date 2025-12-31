@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/1HzLEDBlink/led_blink_1hz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_blink_1hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/1HzLEDBlink/led_blink_1hz_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_led_blink_1hz
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/1HzLEDBlink/1HzLEDBlink/1HzLEDBlink.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

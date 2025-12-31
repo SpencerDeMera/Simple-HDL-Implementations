@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Toggle 1 at 5000 ns
+Toggle 2 at 115000 ns
+Error: Wrong toggle period!
+Time: 115 ns  Iteration: 2  Process: /led_blink_1hz_enGen_TB/Always53_6  Scope: led_blink_1hz_enGen_TB  File: G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/1HzLEDBlinkEnableGen/led_blink_1hz_enGen_TB.v Line: 60
+Toggle 3 at 215000 ns
+Toggle 4 at 315000 ns
+Toggle 5 at 415000 ns
+Simulation finished OK
+$finish called at time : 500 ns : File "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/1HzLEDBlinkEnableGen/led_blink_1hz_enGen_TB.v" Line 73
