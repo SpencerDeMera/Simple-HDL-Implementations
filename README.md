@@ -10,12 +10,17 @@ A collection of hardware design projects for the **Digilent Nexys A7-100T FPGA**
    * **Standalone Design:** Specifically built for driving a single LED. Since the signal is high for 1 second, it is not reusable for driving other synchronous logic components.
 * **Source:** `led_blink_1hz.v`
 
-### 1. 1Hz LED Blink (Enable Generator Pattern)
+### 2. 1Hz LED Blink (Enable Generator Pattern)
 * **Description:** A synchronous blinker that toggles an LED at 1Hz.
 * **Key Concept:** Demonstrates the use of an **Enable Generator** rather than a clock divider. This ensures the entire design stays on the 100MHz global clock tree, preventing clock skew and timing violations common in "ripple clock" designs.
 * **Source:** `led_blink_1hz_enGen.v`
 
-### 2. BCD 7-Segment Counter
+### 3. Hexadecimal 7-Segment Decoder
+* **Description:** A purely combinational decoder that displays 4-bit switch inputs as Hex values (0-F).
+* **Key Concept:** Demonstrates switch interfacing, combinational `case` statements, and static anode management without a system clock.
+* **Source:** `decoder.v`
+
+### 4. BCD 7-Segment Counter
 * **Description:** A decimal counter (0-9) that increments every second and displays the value on the seven-segment display.
 * **Key Concept:**
    * **BCD Logic:** Uses a Binary Coded Decimal counter that resets at 9 rather than 15.
