@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/4Digit_BCD_7Seg/4Digit_BCD_7Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourDigit_BCD_7Seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC Classes/HDL/Verilog/4Digit_BCD_7Seg/4Digit_BCD_7Seg_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FourDigit_BCD_7Seg_TB

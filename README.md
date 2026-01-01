@@ -28,6 +28,13 @@ A collection of hardware design projects for the **Digilent Nexys A7-100T FPGA**
    * **Resource Management:** Drives the 8-digit anode bus to enable only the targeted display digit.
 * **Source:** `BCD_7Seg.v`
 
+### 5. Four-Digit BCD 7-Segment Counter (Multiplexed)
+* **Description:** A four-digit decimal counter (0000–9999) that increments once per second and displays the value on a multiplexed seven-segment display.
+* **Key Concept:**
+  * **Enable-Based Timing:** Uses clock-enable pulses instead of divided clocks to generate a 1Hz count rate and a high-frequency display refresh.
+  * **Display Multiplexing:** Cycles through multiple digits using a shared segment bus and active-low anode control to efficiently drive the display.
+* **Source:** `FourDigit_BCD_7Seg.v`
+
 ---
 
 ## 🛠️ Hardware Specifications
