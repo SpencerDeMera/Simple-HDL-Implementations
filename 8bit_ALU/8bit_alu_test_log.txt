@@ -1,0 +1,5 @@
+--- Starting ALU Comprehensive Test ---
+Time      | Oper | A  | B  | Result | Flags (C V Z S)
+------------------------------------------------------
+------------------------------------------------------
+FINAL STATUS: PASS (0 Errors)

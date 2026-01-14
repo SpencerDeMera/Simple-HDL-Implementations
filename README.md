@@ -35,6 +35,14 @@ A collection of hardware design projects for the **Digilent Nexys A7-100T FPGA**
   * **Display Multiplexing:** Cycles through multiple digits using a shared segment bus and active-low anode control to efficiently drive the display.
 * **Source:** `FourDigit_BCD_7Seg.v`
 
+### 6. 8-Bit Arithmetic Logic Unit (ALU)
+* **Description:** A versatile 8-bit computational core that performs arithmetic, bitwise logic, and logical shift operations based on a 4-bit selection opcode.
+* **Key Concept:**
+   * **Status Flag Generation:** Features dedicated hardware logic to update Carry, Overflow, Sign, and Zero flags for every operation, providing the necessary feedback for conditional branching.
+   * **Arithmetic Integrity:** Implements 2's complement addition and subtraction using a 9-bit temporary register to accurately capture carry-out and detect signed overflow.
+   * **Automated Verification:** Utilizes a self-checking testbench with a golden reference model and File I/O system tasks (`$fopen`, `$fdisplay`) to log comprehensive simulation results to an external text file for hardware validation.
+* **Source:** `ALU.v`, `ALU_TRB.v`
+
 ---
 
 ## 🛠️ Hardware Specifications

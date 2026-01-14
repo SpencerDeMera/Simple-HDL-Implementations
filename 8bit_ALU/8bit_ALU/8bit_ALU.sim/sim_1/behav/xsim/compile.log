@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC/HDL/Verilog/8bit_ALU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/My Drive/_iCloud/EGEC/HDL/Verilog/8bit_ALU/alu_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_TB
+WARNING: [VRFC 10-2502] extra semicolon in $unit (global) scope [G:/My Drive/_iCloud/EGEC/HDL/Verilog/8bit_ALU/alu_TB.v:137]
