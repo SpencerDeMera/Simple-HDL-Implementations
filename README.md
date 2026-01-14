@@ -43,20 +43,14 @@ A collection of hardware design projects for the **Digilent Nexys A7-100T FPGA**
    * **Automated Verification:** Utilizes a self-checking testbench with a golden reference model and File I/O system tasks (`$fopen`, `$fdisplay`) to log comprehensive simulation results to an external text file for hardware validation.
 * **Source:** `ALU.v`, `ALU_TRB.v`
 
----
-
 ## 🛠️ Hardware Specifications
 * **FPGA:** Nexys A7-100T (XC7A100T-1CSG324C)
 * **Clock:** 100 MHz On-board Oscillator (Pin E3)
 * **Reset:** CPU_RESET Pushbutton (Pin C12) — *Active-Low*
 * **Display:** Common Anode Seven-Segment Display — *Active-Low Segments*
 
----
-
 ## 🧪 Simulation & Testbench
 Each project includes a testbench designed for high-speed simulation. 
-
----
 
 ## 📂 Project Structure
 * `.v`: Verilog source files (`.v`)
@@ -69,5 +63,3 @@ Each project includes a testbench designed for high-speed simulation.
 3. Add the `.xdc` file for pin mapping.
 4. Run **Synthesis** and **Implementation**.
 5. Generate **Bitstream** and program your Nexys A7 via the Hardware Manager.
-
----
